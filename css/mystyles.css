@@ -1,0 +1,44 @@
+body{
+    header{
+        font-family: 'Times New Roman', Times, serif !important;
+        color: bisque !important;
+    }
+}
+.text-uppercase{
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+/*div styles*/
+body{
+    background-color: blanchedalmond;
+}
+.common{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: bisque;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 10px solid black;
+}
